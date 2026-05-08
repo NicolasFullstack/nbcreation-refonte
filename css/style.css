@@ -1,73 +1,77 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #ffffff;
-  color: #222222;
+  background-color: #a8a3a3;
+  color: #f2c300;
 }
 
+/* Barre livraison gratuite */
 .top-banner {
   text-align: center;
-  font-size: 14px;
-  padding: 10px 0;
+  padding: 12px 0;
+  font-size: 18px;
   color: #222222;
 }
 
+/* Header */
 .site-header {
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 20px;
 }
 
+/* Logo */
 .logo img {
-  max-width: 180px;
+  width: 60px;
   height: auto;
 }
 
+/* Navigation */
 .main-nav ul {
+  display: flex;
+  gap: 30px;
   list-style: none;
   padding: 0;
-  margin: 20px 0;
-}
-
-.main-nav li {
-  margin: 8px 0;
+  margin: 0;
 }
 
 .main-nav a {
-  color: #222222;
   text-decoration: none;
-  font-size: 16px;
+  color: #f2c300;
+  font-size: 18px;
 }
 
 .main-nav a:hover {
   text-decoration: underline;
 }
 
+/* Langues */
 .language-selector {
+  color: #f2c300;
   font-size: 14px;
-  color: #222222;
 }
 
-.language-selector span {
-  display: block;
-  margin: 4px 0;
-}
-
+/* Contenu principal */
 main {
-  text-align: center;
   padding: 40px 20px;
 }
 
 main h1 {
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  color: #f2c300;
 }
 
 main p {
-  font-size: 18px;
+  text-align: center;
+  font-size: 24px;
+  color: #f2c300;
 }
 
+/* Footer */
 footer {
-  text-align: center;
   padding: 40px 20px;
-  font-size: 14px;
+  text-align: center;
+  color: #222222;
 }
